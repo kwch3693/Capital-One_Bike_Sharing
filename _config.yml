@@ -1,4 +1,3 @@
-remote_theme: mmistakes/minimal-mistakes
-
+remote_theme: mmistakes/minimal-mistakes@4.8.0
 
 theme: jekyll-theme-minimal
