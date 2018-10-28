@@ -1,5 +1,5 @@
 ---
-layout: mmistakes/minimal-mistakes@4.8.0
+layout: mmistakes/minimal-mistakes
 ---
 
 this is here?
