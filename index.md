@@ -1,5 +1,5 @@
 ---
-layout: mmistakes/minimal-mistakes
+layout: remote
 ---
 
 this is here?
