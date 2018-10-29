@@ -283,6 +283,7 @@ defaults:
       type: pages
     values:
       layout: splash
+      classes: wide
       header:
         image:  /assets/images/jack-finnigan-unsplash.jpg
       
