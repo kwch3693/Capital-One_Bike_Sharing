@@ -238,8 +238,7 @@ whitelist:
   - jekyll-include-cache
 
 header:
-  overlay_image: /assets/images/jack-finnigan-569674-unsplash.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  image: /assets/images/jack-finnigan-569674-unsplash.jpg
   
 # Archives
 #  Type
