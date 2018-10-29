@@ -283,9 +283,10 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       header:
         image:  /assets/images/jack-finnigan-unsplash.jpg
-      classes: wide
+      
       author_profile: false
       read_time: false
       comments: # true
