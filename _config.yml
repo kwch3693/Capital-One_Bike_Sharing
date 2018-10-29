@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bike Sharing"
+title                    : "LA Bike Sharing"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "Data Visualization"

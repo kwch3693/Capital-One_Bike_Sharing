@@ -3,21 +3,44 @@ layout: splash
 author_profile: false
 ---
 <h2 style="text-align: center;">LA Bike Sharing Data Visalization</h2>
-<p>This is a change</p>
 <p style="text-align: center;">
-    This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.
+    The LA bike sharing data provided numerous interesting fact and insights that would be worth further investigation. 
+    However due to the limitations of my machine, I worked with a random sample of 30000 for most of these figures. 
+    I used a mixture of numpy, pandas, and matplotlib to analyze the data and produce these figures. 
+    For the frontend I used a template named minimal mistakes which was github pages supported.
 </p>
-<img src="assets\images\fig1.png"> 
-<img src="assets\images\fig2.png"> 
+<img src="assets\images\bicycles-bikes-sport-383.jpg" class="align-center">   
+<h4 style="text-align: center;">
+    Distribution of Rides per Bike
+</h4>
+<img src="assets\images\fig1.png" class="align-center"> 
 <p style="text-align: center;">
-        This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.
+    One of the most interesting aspects of the dataset was that each ride included a unique bike id. Using this information, I counted the number of rides per bike and preformed calculations to find the normal distribution of the data. 
+    I believe this is particularly interesting as it can be used to estimate various other metric such as the avg wear for each bike. More ambitionly, it could be used , along with some other metrics, to discover the deprciation value of the bike.
 </p>
+<h4 style="text-align: center;">
+    Ride Trends
+</h4>
+<img src="assets\images\fig2.png" class="align-left"> 
+<img src="assets\images\fig5.png" class="align-right"> 
 
-<img src="assets\images\fig3.png"> 
-<img src="assets\images\fig4.png"> 
 <p style="text-align: center;">
-        This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.
+    These figure verify some assumptions that I held. The bike sharing service is more used during the summer months, and the service is more used during waking hours. However there were some interesting information that can be gleemed from this. For instance looking at the right figure the bike sharing service has three peaks over the course of a day, which correspond to the begining of work, lunch time, and end of work.
 </p>
+<h4 style="text-align: center;">
+    Makeup of Ridership
+</h4>
+<img src="assets\images\fig3.png" class="align-left"> 
+<img src="assets\images\fig6.png" class="align-right"> 
 
-<img src="assets\images\fig5.png"> 
-<img src="assets\images\fig6.png"> 
+<p style="text-align: center;">
+    From these figures the data, showed that customers opted more towards the 30 day option. This leads me to a couple questions. Does pricing of the options have any influence into this result? Is this result a matter of commitment, i.e is a year too much commitment for this service? Does the revenue model have an effect in this result? 
+</p>
+<h4 style="text-align: center;">
+    Popular Bike Stations
+</h4>
+    
+<img src="assets\images\fig4.png" class="align-center"> 
+<p style="text-align: center;">
+    Given this information, the obvious next step would be answering why is this result the case.
+</p>
