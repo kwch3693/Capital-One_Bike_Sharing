@@ -20,7 +20,7 @@ title                    : "Bike Sharing"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "Data Visualization"
-url                      :  "https://kwch3693.github.io/Capital_One_Bike_Sharing/"
+url                      : #idk
 baseurl                  : "https://kwch3693.github.io/Capital_One_Bike_Sharing/"
 repository               : "kwch3693/Capital_One_Bike_Sharing"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
