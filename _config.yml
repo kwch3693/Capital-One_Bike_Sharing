@@ -237,8 +237,6 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 
-header:
-  image:  /assets/images/jack-finnigan-569674-unsplash.jpg
   
 # Archives
 #  Type
@@ -285,6 +283,8 @@ defaults:
       type: pages
     values:
       layout: single
+      header:
+        image:  /assets/images/jack-finnigan-569674-unsplash.jpg
       author_profile: false
       read_time: false
       comments: # true
