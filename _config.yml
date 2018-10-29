@@ -238,7 +238,7 @@ whitelist:
   - jekyll-include-cache
 
 header:
-  image: /assets/images/jack-finnigan-569674-unsplash.jpg
+  image:  /assets/images/jack-finnigan-569674-unsplash.jpg
   
 # Archives
 #  Type
