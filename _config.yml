@@ -287,7 +287,6 @@ defaults:
       header:
         image:  /assets/images/jack-finnigan-unsplash.jpg
       
-      author_profile: false
       read_time: false
       comments: # true
       share: false
